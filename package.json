@@ -1,0 +1,19 @@
+{
+  "name": "zapier-policy",
+  "version": "0.1.0",
+  "dependencies": {
+    "request": "^2.74.0"
+  },
+  "policy": {
+    "language": "coffeescript",
+    "params": {
+      "url": {
+        "type": "url",
+        "required": true,
+        "label": "Webhook URL",
+        "tip": "Custom webhook URL (provided by Zapier)."
+      }
+    },
+    "defaultName": "Zapier"
+  }
+}
