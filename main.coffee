@@ -6,10 +6,10 @@ class Zapier
     @path = params.path
     @url = params.url
 
-  receiver : (changes, {prev, cur}) =>
+  receiver : (data) =>
     request
       method: 'post'
-      body: {changes, prev, cur}
+      body: data
       json: true
       url: @url
     , (err, res) ->
