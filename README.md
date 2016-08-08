@@ -1,6 +1,14 @@
 # Zapier Smart Policy for [Trailbot](https://trailbot.io)
 This [Trailbot Smart Policy](https://github.com/trailbot/client/wiki/Smart-Policies) pushes file events into a Zapier Webhooks trigger.
 
+## Use cases
+
+There are hundreds of use cases for this policy:
++ Store automatic file backups in your Dropbox folder.
++ Set SMS alerts upon illegal access to your server.
++ Automatically create GitHub issues when a new line is appended to your app's error logfile.
++ ...
+
 ## Usage
 1. Go to [__Zapier__](https://zapier.com). Please log in or sign up.
 2. Create a new Zap by clicking the __Make a Zap!__ orange button in the header.
