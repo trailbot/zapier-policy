@@ -4,6 +4,8 @@
   "dependencies": {
     "request": "^2.74.0"
   },
+  "repository": "https://github.com/trailbot/zapier-policy",
+  "license": "MIT",
   "policy": {
     "language": "coffeescript",
     "params": {
