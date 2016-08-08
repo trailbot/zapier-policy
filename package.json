@@ -1,6 +1,6 @@
 {
   "name": "zapier-policy",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "dependencies": {
     "request": "^2.74.0"
   },
@@ -12,6 +12,7 @@
       "url": {
         "type": "url",
         "required": true,
+        "test": "post",
         "label": "Webhook URL",
         "tip": "Custom webhook URL (provided by Zapier)."
       }
